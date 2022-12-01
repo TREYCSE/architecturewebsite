@@ -1,0 +1,508 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+body {
+  color: black;
+}
+img.background {
+  position: absolute;
+  z-index: -1;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  min-width:700px;
+  background-position: center;
+}
+h1 {
+  margin-top: 15px;
+}
+hr {
+  max-width: 100px;
+  z-index: 10;
+}
+h2 {
+  margin: 0;
+}
+h5 {
+  font-style: italic;
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+h6 {
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  background-color: black;
+  color: white;
+  border-width: 22px;
+  max-height: 475px;
+  max-width: 335px;
+  text-align: left;
+  margin: 0;
+}
+main {
+  color: black;
+}
+button {
+  background-color: transparent;
+  color: whitesmoke;
+  width: 150px;
+  height: 40px;
+  border-width: medium;
+  position: relative;
+
+}
+a {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+img {
+  max-width: 375px;
+}
+.urban->img {transition: all 0.5s ease}
+.urban:hover>img {
+  opacity:1.5;
+  -webkit-filter:grayscale(.7);
+}
+.urban>div {
+  opacity:0; transition: all 0.5s ease;
+  position:absolute; bottom:100;
+}
+.urban:hover>div {
+  opacity:1;
+}
+.crown-button {
+  color: black;
+}
+.button-click {
+  position: relative;
+  top: 1150px;
+  left: 170px;
+  z-index: 10;
+}
+.more-photos {
+  color: whitesmoke;
+}
+.news-txt {
+  position: relative;
+  border-style: double;
+  border-width: 2px;
+  border-color: whitesmoke;
+  left: 260px;
+  bottom: 185px;
+  z-index: 10;
+  color: whitesmoke;
+  width: 100px;
+  min-height: 150px;
+}
+.archent-txt {
+  text-decoration: none;
+  z-index: 10;
+  bottom: 250px;
+  position: relative;
+  color: whitesmoke;
+  background-color: transparent;
+}
+.about-txt {
+  color: whitesmoke;
+  z-index: 100;
+  bottom: 175px;
+  position: relative;
+}
+.lux-txt {
+  text-align: left;
+  margin: 3%;
+}
+.contact-txt {
+  position: relative;
+  bottom: 240px;
+  left: 0px;
+  z-index: 10;
+  margin: 3%;
+  color: whitesmoke;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 25px;
+  row-gap: 20px;
+}
+.item {
+  border-style: solid;
+  border-color: whitesmoke;
+  background-color: whitesmoke;
+  border-width: 10px;
+  color: black;
+  width: 375px;
+  background-color: lightgray;
+}
+
+.news {
+  max-height: 245px;
+}
+.about {
+  max-height: 228px;
+}
+.contact {
+  max-height: 235px;
+}
+.urban {
+  background-image: url("file:///Users/treyweathers/Downloads/MyGA/architecturewebsite/geo2.jpeg")
+}
+.villa {
+    background-image: url("file:///Users/treyweathers/Downloads/full_Ij6sSwVqx6Q8EyPiC537LWh4p.jpg");
+}
+.visang {
+  background-image: url("file:///Users/treyweathers/Downloads/th.jpeg");
+}
+.science {
+  background-image: url("file:///Users/treyweathers/Downloads/MyGA/architecturewebsite/inside5.jpeg");
+}
+
+@media screen and (min-width: 800px) {
+  img.background {
+    min-width: 900px;
+  } 
+  h1 {
+    text-decoration: underline;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
+  }
+  .villa {
+    min-height: 650px;
+  }
+  .lux-img {
+    max-height: 368px;
+  }
+  .contact-img, .contact{
+    max-height: 200px;
+  }
+  .contact-txt {
+    bottom: 180px;
+  }
+  .crown {
+    min-height: 325px;
+  }
+  .news {
+    max-height: 225px;
+  }
+  .news-img {
+    max-height: 225px;
+  }
+  .news-txt {
+    left: 243px;
+    bottom: 170px;
+  }
+  .urban {
+    background-image: none;
+  }
+
+}
+@media screen and (min-width: 1000px) {
+  img.background {
+    min-width: 1100px;
+  }
+  img {
+    max-height: 425px;
+    min-width: 375px;
+  }
+  h1 {
+    border-color: transparent;
+    text-decoration: overline;
+    color: black;
+  }
+  h6 {
+    background-color: black;
+    max-height: 350px;
+    max-width: 115px;
+    border-width: 5px;
+  }
+  * {
+    color: whitesmoke;
+  }
+  body {
+  }
+  .contact-img, .contact{
+    max-height: 250px;
+  }
+  .item {
+    margin: 5%;
+    background-color: black;
+  }
+  .crown-button {
+    color: whitesmoke;
+  }
+  .contact-txt {
+    left: 90px;
+    bottom: 200px;
+  }
+  .about-txt {
+    left: 135px;
+    bottom: 180px;
+  }
+  .archent-txt {
+    bottom: 120px;
+    right: 25px;
+  }
+  .news-txt {
+    color: lightgray;
+  }
+  .lux-img {
+    max-height: 300px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 450px auto 450px;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 20px;
+  }
+  .item {
+    display: flex;
+    border-width: 7px;
+    flex-wrap: wrap;
+    border-width: 4px;
+    border-color: black;
+  }
+  .news {
+    z-index: 10;
+    background-color:transparent;
+    min-height: 310px;
+  }
+  .about {
+    max-height: 225px;
+  }
+  .crown{
+    background-color: transparent; 
+    min-height: 325px;
+  }
+  .lux {
+    z-index: 1;
+    color: black;
+    min-height: 1000px;
+    grid-row: 2 / 2;
+    grid-column: 3 / 3;
+    border-color: darkgray;
+    min-height: 500px;
+    border-width: 5px;
+  }
+  .lux-txt {
+    max-width: 100px;
+  }
+  .urban {
+    bottom: 330px;
+    right: 240px;
+    border-color: darkgray;
+    min-height: 1000px;
+    min-height: 540px;
+  }
+  .urb
+  .science {
+    z-index: 10;
+    max-height: 450px;
+    border-color: lightgray;
+    grid-column: 1 /1 ;
+    grid-row: 3 / 3;
+  }
+  .villa {
+    padding: 0x;
+    border-color: darkgray;
+    min-height: 850px;
+    min-height: 425px;
+  }
+  .visang {
+    border-color: lightgray;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+  }
+  .contact {
+    border-color: lightgray;
+    min-height: 250px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  img.background {
+    min-width:1400px;
+}
+  h1 {
+    text-align: left;
+    position: relative;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    max-width: 250px;
+    text-decoration: none;
+    margin-left: 5%;
+  }
+  h6 {
+    max-height: 275px;
+    margin: 0;
+    border-width: 2.5px;
+    padding: 0px;
+    max-width: 120px;
+  }
+  footer {
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+  }
+  .about-txt {
+    left: 130px;
+  }
+  .archent-txt {
+    bottom: 170px;
+    right: 30px;
+  }
+  .contact-txt {
+    left: 90px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    grid-template-rows: 15% 50% 35% 0%;
+    grid-column-gap: 55px;
+    grid-row-gap: 15px;
+  }
+  .item {
+    display: flex;
+    flex: 0 1 calc(50% - 1em);
+    align-items: center;
+  }
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: transparent;
+    z-index: 10;
+    min-height: 250px;
+    min-width: 375px;
+  }
+  .about {
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 0 / 0;
+    background-color: whitesmoke;
+    border-color: black;
+    max-height: 225px;
+    min-width: 225px;
+    border-width: 5px;
+  }
+  .crown {
+    z-index: 100;
+    border-color: darkgray;
+    background-color: transparent;
+    max-height: 350px;
+    border-width: 5px;
+  }
+  .lux {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    z-index: 1;
+    border-color: darkgray;
+    background-color: grey;
+    color: black;
+    border-width: px;
+    background-color: lightslategray;
+    min-height: 50px;
+    max-height: 525px;
+  }
+  .urban {
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border-color: black;
+    border-color: darkgray;
+    border-width: 5px;
+    min-height: 425px;
+  }
+  .science {
+    display: flex;
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+    background-color: whitesmoke;
+    border-color: lightgray;
+    border-width: 5px;
+    border-radius: 70%;
+    min-height: 500px;
+  }
+  .villa {
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+    border-width: 5px;
+    min-height: 400px;
+    background-color: black;
+    border-color: lightgray;
+  }
+  .visang {
+    display: flex;
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+    border-color: lightgray;
+    background-color: transparent;
+    border-radius: 70%;
+    min-height: 500px;
+    z-index: 10;
+    border-width: 5px;
+    height: 500px;
+  }
+  .visang-img {
+    opacity: 0%;
+  }
+  .science-img {
+    opacity: 0%;
+  }
+  .lux-img {
+    max-height: 250px;
+    margin: 0;
+    padding: 0px;
+  }
+  .lux-txt {
+    max-width: 50px;
+    border-width: 0px;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    grid-column: span 3;
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+    background-color: black;
+    border-width: 5px;
+    z-index: 10;
+    min-height: 250px;
+    text-align: center;
+    border-color: black;
+  }
+  .vin {
+    text-align: center;
+  }
+}
