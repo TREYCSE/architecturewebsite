@@ -160,16 +160,16 @@ img {
   max-height: 235px;
 }
 .urban {
-  background-image: url("file:///Users/treyweathers/Downloads/MyGA/architecturewebsite/geo2.jpeg")
+  background-image: url("https://i.imgur.com/uUsKzml.jpg")
 }
 .villa {
-    background-image: url("file:///Users/treyweathers/Downloads/full_Ij6sSwVqx6Q8EyPiC537LWh4p.jpg");
+    background-image: url("https://i.imgur.com/0NTks6N.jpg");
 }
 .visang {
-  background-image: url("file:///Users/treyweathers/Downloads/th.jpeg");
+  background-image: url("https://i.imgur.com/UMkIEPj.jpg");
 }
 .science {
-  background-image: url("file:///Users/treyweathers/Downloads/MyGA/architecturewebsite/inside5.jpeg");
+  background-image: url("https://i.imgur.com/YJh9JmL.jpg");
 }
 
 @media screen and (min-width: 800px) {
